@@ -1,21 +1,86 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import Form from 'react-bootstrap/Form';
 
-export default function Page1(){
-    return(
-        //Saurav
-        <>
-            <Row >
-                <Col xs={4} className="m-2">
-                    <Button className="rounded-5"> Social Oculus</Button>
+
+export default function Page1() {
+    return (
+        <Container fluid>
+            <Row>
+                <Col xs={3}>
+                    <Button variant="primary" className="rounded-5 mx-4 mt-4 p-2">Social Oculus</Button>
+
                 </Col>
-                <Col xs={4}>
-                <Button>Tools</Button>
-                <Button>Channels</Button>
-                <Button>Blogs</Button>
+
+                <Col xs={6} className="align-items-center justify-content-center d-flex">
+                    <Button variant="light" className="rounded-2 mx-4 mt-4 p-2 border-black">Tools</Button>
+                    <Button variant="light" className="rounded-2 mx-4 mt-4 p-2 border-black">Channels</Button>
+                    <Button variant="light" className="rounded-2 mx-4 mt-4 p-2 border-black">Blogs</Button>
+
                 </Col>
-                <Col xs={4}></Col>
+
+                <Col xs={3} className="justify-content-end d-flex">
+                    <Button type="button" className="btn btn-light text-primary mx-4 mt-4 p-2">Log in</Button>
+                    <Button type="button" className="rounded-2 mx-4 mt-4 p-2 border-black">Get Started Now</Button>
+                </Col>
+
+                <Col xs={12}>
+                    <Row>
+                        <Col xs={6}>
+                            <Row className="mx-2 mt-5">
+                                <h2>
+                                    Expand your reach across social media and beyond
+                                </h2>
+                            </Row>
+
+                            <Row className="mx-2 mt-4">
+                                <h3>Social Oculus is a user-friendly platform focused on helping individuals and teams grow their audience organically</h3>
+                            </Row>
+
+                            <Row className="mx-2 mt-5">
+                                <h4>We prioritize values-driven marketing and offer affordable tools tailored to specific goals and target demographics. Our approach emphasizes genuine connections and aunthetic growth strategies.</h4>
+                            </Row>
+
+                            <Row>
+                                <Col xs={7} className="">
+                                    <Form>
+                                        <Form.Group className="mb-3 " controlId="formBasicPassword">
+                                            <Form.Label></Form.Label>
+                                            <Form.Control type="password" placeholder="" />
+                                        </Form.Group>
+                                    </Form>
+                                </Col>
+
+                                <Col xs={5} className="">
+                                    <Button type="button" className="rounded-2 mx-4 mt-4  border-black">Get Started Now</Button>
+
+                                </Col>
+                            </Row>
+
+                            <Row className="mt-4">
+                                <Col xs={3}>
+                                <Button type="button" className="rounded-2  btn btn-light ">Try For Free</Button>
+
+                                </Col>
+                                <Col xs={3}>
+                                <Button type="button" className="rounded-2  btn btn-light ">No Credit Cards</Button>
+
+                                </Col>
+                                <Col xs={3}>
+                                <Button type="button" className="rounded-2  btn btn-light ">Cancel Anytime</Button>
+
+                                </Col>
+                            </Row>
+
+
+                        </Col>
+                    </Row>
+                </Col>
+
+
             </Row>
-        </>
+
+
+        </Container>
     )
 }

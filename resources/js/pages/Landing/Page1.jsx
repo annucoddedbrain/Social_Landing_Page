@@ -13,18 +13,17 @@ export default function Page1() {
                 </Col>
 
                 <Col xs={6} className="align-items-center justify-content-center d-flex">
-                    <Button variant="light" className="rounded-2 mx-4 mt-4 p-2 border-black">Tools</Button>
-                    <Button variant="light" className="rounded-2 mx-4 mt-4 p-2 border-black">Channels</Button>
-                    <Button variant="light" className="rounded-2 mx-4 mt-4 p-2 border-black">Blogs</Button>
+                    <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Tools</Button>
+                    <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Channels</Button>
+                    <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Blogs</Button>
 
                 </Col>
 
                 <Col xs={3} className="justify-content-end d-flex">
                     <Button type="button" className="btn btn-light text-primary mx-4 mt-4 p-2">Log in</Button>
-                    <Button type="button" className="rounded-2 mx-4 mt-4 p-2 border-black">Get Started Now</Button>
+                    <Button type="button" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Get Started Now</Button>
                 </Col>
-
-                <Col xs={12}>
+            </Row>
                     <Row>
                         <Col xs={6}>
                             <Row className="mx-2 mt-5">
@@ -74,11 +73,16 @@ export default function Page1() {
 
 
                         </Col>
+                        <Col xs={6}>
+                        <img src="/images/Page1.png"/>
+                    </Col>
                     </Row>
-                </Col>
 
 
-            </Row>
+
+
+
+
 
 
         </Container>

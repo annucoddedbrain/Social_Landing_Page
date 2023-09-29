@@ -22,9 +22,9 @@ export default function Page2() {
                 <Col xs={6} className="m-auto fs-2 fw-semibold">
                     <h4 className="text-primary text-center fw-bolder fs-2">1. SHARE CLICK-WORTHY CONTENT</h4>
                     <h3 className="m-4 fs-1 p-2 text-center"><i><b>Get the clicks you deserve</b></i></h3>
-                    <p className="text-center fst-italic p-4 ">Oculus will tell you when and what to publish to make your content stand out</p>
+                    <p className="fst-italic p-4 mx-5">Oculus will tell you when and what to publish to make your content stand out</p>
 
-                    <Button className="m-5 fs-4 fst-italic shadow rounded-4">Start Creating</Button>
+                    <Button className="mx-5 fw-bold fs-4 fst-italic shadow rounded-4">Start Creating</Button>
                 </Col>
                 <Col xs={6}>
                     <img src="/images/Page2.png"/>

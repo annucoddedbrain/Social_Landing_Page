@@ -13,7 +13,7 @@ export default function Page1() {
                 </Col>
 
                 <Col xs={6} className="align-items-center justify-content-center d-flex">
-                    <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Tools</Button>
+                    <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black mx-2">Tools</Button>
                     <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Channels</Button>
                     <Button variant="light" className="rounded-2 shadow mx-4 mt-4 p-2 border-black">Blogs</Button>
 

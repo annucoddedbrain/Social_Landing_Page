@@ -6,6 +6,7 @@ import Page2 from "./pages/Landing/Page2";
 import Page3 from "./pages/Landing/Page3";
 import Page4 from "./pages/Landing/Page4";
 import Page5 from "./pages/Landing/Page5";
+import Page6 from "./pages/Landing/Page6";
 
 function Root(){
 
@@ -17,6 +18,7 @@ function Root(){
                 <Route path='/page-3' exact={true} Component={Page3}/>
                 <Route path='/page-4' exact={true} Component={Page4}/>
                 <Route path='/page-5' exact={true} Component={Page5}/>
+                <Route path='/page-6' exact={true} Component={Page6}/>
             </Routes>
         </>
     )

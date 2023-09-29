@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
+import {AiOutlineCheck} from "react-icons/ai"
 
 
 export default function Page1() {
@@ -41,9 +42,9 @@ export default function Page1() {
                             </Row>
 
                             <Row>
-                                <Col xs={7} className="">
+                                <Col xs={7}>
                                     <Form>
-                                        <Form.Group className="mb-3 " controlId="formBasicPassword">
+                                        <Form.Group className="mx-3 " controlId="formBasicPassword">
                                             <Form.Label></Form.Label>
                                             <Form.Control type="password" placeholder="" />
                                         </Form.Group>
@@ -51,22 +52,22 @@ export default function Page1() {
                                 </Col>
 
                                 <Col xs={5} className="">
-                                    <Button type="button" className="rounded-2 mx-4 mt-4  border-black">Get Started Now</Button>
+                                    <Button type="button" className="rounded-2 mx-4 mt-4 border-black">Get Started Now</Button>
 
                                 </Col>
                             </Row>
 
-                            <Row className="mt-4">
-                                <Col xs={3}>
-                                <Button type="button" className="rounded-2  btn btn-light ">Try For Free</Button>
+                            <Row className="mt-4 mx-2">
+                                <Col xs={4}>
+                                <Button type="button" className="rounded-2  btn btn-light "><h5 className="fw-bold">Try For Free <AiOutlineCheck className="text-primary fs-5 fw-bold"/></h5></Button>
 
                                 </Col>
-                                <Col xs={3}>
-                                <Button type="button" className="rounded-2  btn btn-light ">No Credit Cards</Button>
+                                <Col xs={4}>
+                                <Button type="button" className="rounded-2  btn btn-light "><h5 className="fw-bold">No Credit Cards<AiOutlineCheck className="text-primary fs-5 fw-bold"/></h5></Button>
 
                                 </Col>
-                                <Col xs={3}>
-                                <Button type="button" className="rounded-2  btn btn-light ">Cancel Anytime</Button>
+                                <Col xs={4}>
+                                <Button type="button" className="rounded-2  btn btn-light "><h5 className="fw-bold">Cancel Anytime<AiOutlineCheck className="text-primary fs-5 fw-bold"/></h5></Button>
 
                                 </Col>
                             </Row>
